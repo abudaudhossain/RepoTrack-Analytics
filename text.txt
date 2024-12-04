@@ -1,0 +1,26 @@
+1. User login and Registration
+2. Add Project
+3. Project List
+4. View Project Report
+
+-> User login and Res by Github
+-> Add Project Repository
+-> Project Report
+    -> Total Commits Count
+    -> last day Commits Count and compare with previous day
+    -> Total Pull Request( close and Open)
+    -> Total Contributors Count 
+
+    -> Commits Analysis
+        -> Contributors wise Commits
+    -> Analytics Report by List( name ---> count)
+       
+        -> Fork Count
+        -> Start
+        -> Watch
+        -> Open Issues
+        -> close Issues
+        -> Total Releases 
+        -> 
+    -> languages Report
+    -> Tag list
