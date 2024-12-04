@@ -24,3 +24,29 @@
         -> 
     -> languages Report
     -> Tag list
+
+    Add Project Repository
+
+Add GitHub repository details to track.
+Project Report
+
+    Total Commits Count: Display the total number of commits.
+    Last Day Commits Count: Show commits from the previous day and compare them with the day before.
+    Pull Requests: Count of open and closed PRs.
+    Total Contributors: Total contributors count.
+    Commits Analysis
+
+Display contributors and their respective commit counts.
+Analytics Report
+
+Fork Count: Total forks of the repository.
+Stars: Number of stars the repository has.
+Watch: Number of watchers.
+Issues: Total open and closed issues.
+Releases: Total number of releases.
+Languages Report
+
+Breakdown of repository languages and their percentage.
+Tag List
+
+List of all repository tags (versions).

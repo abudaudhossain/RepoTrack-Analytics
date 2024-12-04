@@ -3,6 +3,7 @@ import { lazy } from 'react';
 // project import
 import Loadable from 'components/Loadable';
 import Dashboard from 'layout/Dashboard';
+import Project from 'pages/projects';
 
 const Color = Loadable(lazy(() => import('pages/component-overview/color')));
 const Typography = Loadable(lazy(() => import('pages/component-overview/typography')));
@@ -20,21 +21,27 @@ const MainRoutes = {
   children: [
     {
       path: '/',
-      element: <DashboardDefault />
+      element: <Project />
     },
     {
       path: 'color',
       element: <Color />
     },
     {
-      path: 'dashboard',
+      path: 'projects',
       children: [
         {
-          path: 'default',
+          path: '',
+          element: <Project />
+        },
+        {
+          path: ':id',
           element: <DashboardDefault />
         }
       ]
     },
+
+
     {
       path: 'sample-page',
       element: <SamplePage />
